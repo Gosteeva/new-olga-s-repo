@@ -10,12 +10,12 @@ files:
     translation_replace:
       en.: 
       
-  - source: /Multilingual_spreadsheet_sample.csv
-    translation: /Multilingual_spreadsheet_sample.csv
+  - source: /translations/%two_letters_code%//Multilingual_spreadsheet_sample.csv
+    translation: /translations/%two_letters_code%/%original_file_name%
     first_line_contains_header: true
     scheme: identifier,context,source_phrase,es-ES,fr,de,it,max_length
     
   - source: /Sample.csv
-    translation: /Sample.csv
+    translation: /translations/%two_letters_code%/%original_file_name%
     first_line_contains_header: true
     scheme: identifier,context,source_phrase,translation
