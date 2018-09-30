@@ -9,8 +9,13 @@ files:
     translation: /translations/%two_letters_code%/%original_file_name%
     translation_replace:
       en.: 
-  - source: /multicolumn.csv
-    translation: /multicolumn.csv
+      
+  - source: /Multilingual_spreadsheet_sample.csv
+    translation: /Multilingual_spreadsheet_sample.csv
     first_line_contains_header: true
-    scheme: identifier,context,source_phrase,es_ES,fr,de,it,max.length
+    scheme: identifier,context,source_phrase,es-ES,fr,de,it,max_length
     
+  - source: /Sample.csv
+    translation: /Sample.csv
+    first_line_contains_header: true
+    scheme: identifier,context,source_phrase,translation
