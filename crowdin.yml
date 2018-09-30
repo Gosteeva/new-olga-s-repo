@@ -1,4 +1,5 @@
-"export_languages": "de"
+preserve_hierarchy: true
+export_languages: de
 
 files:
   - source: /*.*
@@ -8,3 +9,8 @@ files:
     translation: /translations/%two_letters_code%/%original_file_name%
     translation_replace:
       en.: 
+  - source: /multicolumn.csv
+    translation: /multicolumn.csv
+    first_line_contains_header: true
+    scheme: identifier,context,source_phrase,es_ES,fr,de,it,max.length
+    
