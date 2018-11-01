@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: github-integrating-test\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-09-03 10:09+0200\n"
-"PO-Revision-Date: 2018-09-30 13:19\n"
+"PO-Revision-Date: 2018-11-01 15:41\n"
 "X-Crowdin-SourceKey: msgstr\n"
 "Last-Translator: OliaK <og@crowdin.com>\n"
 "Language-Team: German\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: simple string sample
 msgid "Text for translation"
-msgstr ""
+msgstr "Übersetzte Zeichenfolge"
 
 #: sample with translated string
 msgid "Text for translation"
-msgstr ""
+msgstr "Übersetzte Zeichenfolge"
 
 #: long string without new line
 msgid "Very long string for translationeven longer string for translation."
